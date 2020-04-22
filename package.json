@@ -1,6 +1,12 @@
 {
-  "name": "ocr-server",
-  "version": "0.0.0",
+  "name": "node-boilerplate",
+  "version": "1.0.0",
+  "description": "Node boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxjf1/node-boilerplate.git"
+  },
+  "license": "ISC",
   "scripts": {
     "build": "babel src -d dist",
     "dev": "nodemon --exec babel-node src/index.js",
@@ -16,13 +22,11 @@
   },
   "main": "./dist/index.js",
   "devDependencies": {
-    "@babel/cli": "^7.7.7",
-    "@babel/core": "^7.7.7",
-    "@babel/node": "^7.7.7",
-    "@babel/preset-env": "^7.7.7",
-    "eslint": "^5.12.0",
-    "nodemon": "^2.0.1",
-    "prettier": "^1.19.1",
-    "prettier-check": "^2.0.0"
+    "@babel/cli": "*",
+    "@babel/core": "*",
+    "@babel/node": "*",
+    "@babel/preset-env": "*",
+    "eslint": "*",
+    "nodemon": "*"
   }
 }
